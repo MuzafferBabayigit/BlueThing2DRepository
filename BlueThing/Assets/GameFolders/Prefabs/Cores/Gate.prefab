@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baefaedbeb237e24a9830c6a11109eb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wakeRadius: 7
+  wakeRadius: 8
 --- !u!82 &8582377298218679544
 AudioSource:
   m_ObjectHideFlags: 0
@@ -415,8 +415,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.00055003166, y: -0.41190004, z: 0}
-    m_Extent: {x: 2.33275, y: 2.5715, z: 0}
+    m_Center: {x: -0.0018999577, y: -0.4093001, z: 0}
+    m_Extent: {x: 2.3265, y: 2.5739, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
