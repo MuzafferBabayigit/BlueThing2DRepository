@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GateAnimatorOverrideController
+  m_Controller: {fileID: 9100000, guid: 37f7186e456384c48a3c68db6610ef4e, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 1088c0e0428a4e84ca5f98b049303ee6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4308c59b30c19a549957afa27223ee6b, type: 2}
