@@ -23,7 +23,6 @@ namespace MyBlueThing.Combats
 
         private void Start()
         {
-            //PlayerPrefs.DeleteAll();
             PlayerPrefs.SetInt("activeScene", SceneManager.GetActiveScene().buildIndex-1);
 
             OnHealthDecrease?.Invoke(_currentHealth,_maxHealth);
@@ -33,6 +32,7 @@ namespace MyBlueThing.Combats
         public void TakeHit(Damage damage)
         {
             _currentHealth -= damage.HitDamage;
+
             if (IsDead)
             {
                 onDead.Invoke();

@@ -45,7 +45,7 @@ namespace MyBlueThing.Controllers
 
         private void OnEnable()
         {
-            GameCanvas gameCanvas = FindObjectOfType<GameCanvas>();
+            GameCanvas gameCanvas = FindObjectOfType<GameCanvas>(); ;
 
             if (gameCanvas != null)
             {
