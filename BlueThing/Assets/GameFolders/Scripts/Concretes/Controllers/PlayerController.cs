@@ -33,7 +33,7 @@ namespace MyBlueThing.Controllers
 
         private void Awake()
         {
-            _input = new PcInput();
+            _input = new MobileInput();
             _mover = new Mover(this, moveSpeed);
             _animation = new PlayerAnimation(GetComponent<Animator>());
             _flip = new FlipWithTransform(this);

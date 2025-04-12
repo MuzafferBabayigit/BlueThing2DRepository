@@ -39,6 +39,9 @@ EditorBuildSettings:
     path: Assets/Scenes/09.unity
     guid: 2062a700990e0734ab51083dbc1b8b15
   - enabled: 1
+    path: Assets/Scenes/10.unity
+    guid: 634fb77921104244dacb20b46162f642
+  - enabled: 1
     path: Assets/Scenes/TobeContunied.unity
     guid: ef240a5f42e32e84e8c2682d9320ebe6
   - enabled: 1
